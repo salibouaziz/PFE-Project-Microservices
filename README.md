@@ -7,9 +7,13 @@ The objective of this graduation project was to migrate a legacy monolithic arch
 This transformation aimed to improve:
 
 -Scalability
+
 -System maintainability
+
 -Deployment automation
+
 -Observability and performance testing
+
 -Security in the CI/CD pipeline
 
 🛠️ Technologies & Tools
