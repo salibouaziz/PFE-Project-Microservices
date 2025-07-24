@@ -6,34 +6,30 @@ The objective of this graduation project was to migrate a legacy monolithic arch
 
 This transformation aimed to improve:
 
-Scalability
-
-System maintainability
-
-Deployment automation
-
-Observability and performance testing
-
-Security in the CI/CD pipeline
+-Scalability
+-System maintainability
+-Deployment automation
+-Observability and performance testing
+-Security in the CI/CD pipeline
 
 🛠️ Technologies & Tools
-Backend Framework: Express.js
+-Backend Framework: Express.js
 
-Database: MongoDB
+-Database: MongoDB
 
-Communication: Kafka, gRPC
+-Communication: Kafka, gRPC
 
-Containerization: Docker
+-Containerization: Docker
 
-Orchestration: Kubernetes (set up manually using kubeadm)
+-Orchestration: Kubernetes (set up manually using kubeadm)
 
-CI/CD & DevOps: Jenkins, SonarQube, trivy
+-CI/CD & DevOps: Jenkins, SonarQube, trivy
 
-Monitoring & Observability: Prometheus, Grafana
+-Monitoring & Observability: Prometheus, Grafana
 
-Security & Networking: WireGuard VPN
+-Security & Networking: WireGuard VPN
 
-Testing: Jest (unit testing), K6 (performance/load testing)
+-Testing: Jest (unit testing), K6 (performance/load testing)
 
 🧩 Project Components
 🔁 1. Architecture Migration
@@ -44,32 +40,32 @@ Designed service boundaries and communication using gRPC and Kafka for async mes
 🚀 2. CI/CD Integration
 Implemented a CI/CD pipeline using Jenkins to automate:
 
-Code building
+-Code building
 
-Testing with Jest
+-Testing with Jest
 
-Static code analysis via SonarQube
+-Static code analysis via SonarQube
 
-Container scanning with trivy
+-Container scanning with trivy
 
-Docker image publishing
+-Docker image publishing
 
 📦 3. Containerization & Orchestration
-Dockerized all microservices for deployment.
+-Dockerized all microservices for deployment.
 
-Set up a Kubernetes cluster manually using kubeadm on server.
+-Set up a Kubernetes cluster manually using kubeadm on server.
 
-Deployed services using YAML configurations for:
+-Deployed services using YAML configurations for:
 
-Deployments
+-Deployments
 
-Services (ClusterIP, LoadBalancer)
+-Services (ClusterIP, LoadBalancer)
 
-Ingress Controller
+-Ingress Controller
 
-ConfigMaps & Secrets
+-ConfigMaps & Secrets
 
-Implemented rolling updates and basic auto-scaling policies.
+-Implemented rolling updates and basic auto-scaling policies.
 
 🔐 4. Secure Networking
 Configured WireGuard VPN for secure communication between microservices.
